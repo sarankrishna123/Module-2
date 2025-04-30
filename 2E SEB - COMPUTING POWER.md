@@ -1,28 +1,39 @@
 # Exp.No:2e  
-## SEB - COMPUTING POWER
+## SEB - find the sum of the series
 
 ---
 
 ### AIM  
-To write a Python program to compute the power of a given number using an appropriate built-in function.
-
+To Python Program to find the sum of series 1+3+5+7.......+N .
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the base number (`base`) from the user.  
-3. Input the exponent number (`exp`) from the user.  
-4. Use the built-in `pow()` function to compute the base raised to the power of the exponent.  
-5. Print the result using the `print()` function, displaying the power in a formatted output.  
-6. Terminate the program.
+1. Prompt the user to enter the value of N.  
+2. Read the input and convert it to an integer.  
+3. Initialize a variable to store the sum with a value of 0.  
+4. Use a loop to iterate from 1 to N with a step of 2 to cover only odd numbers.  
+5. In each iteration, add the current odd number to the sum.  
+6. After the loop ends, print the final sum.
 
 ---
 
 ### PROGRAM
 
 ```
+Reg no: 212223070023
+Name:Saran Krishna P S
+a=int(input())    
+sum=0
+for i in range(1,a+1):
+    if i%2!=0:
+        sum+=i
+print("The sum of the series = ",sum)
+
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/2d29ad9b-4447-4d58-9116-750fdb3fe070)
 
 ### RESULT
+Thus the above program is executed successfully.
+
