@@ -1,32 +1,40 @@
 # Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+## FUNCTIONS - define a function that accepts 3 values and return its average  
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+To Write a python program to define a function that accepts 3 values and return its average  
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1. Define a function that takes three parameters.  
+2. Inside the function, add the three values and divide the sum by 3 to calculate the average.  
+3. Return the calculated average from the function.  
+4. Prompt the user to enter the first number and store it.  
+5. Prompt the user to enter the second number and store it.  
+6. Prompt the user to enter the third number and store it.  
+7. Call the function with the three input values as arguments.  
+8. Store the returned average.  
+9. Print the average value.
 
 ---
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
-
+#Reg.No:212223070023
+#Name:Saran Krishna P S
+def result(a,b,c):
+    sum=a+b+c
+    z=sum/3
+    return z
+a=int(input())
+b=int(input())
+c=int(input())
+print("average is",result(a,b,c))
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/c1f57e64-fd83-482e-a192-a5b8208efc85)
 
 ### RESULT
+Thus the above program is executed successfully.
