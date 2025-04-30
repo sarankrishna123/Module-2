@@ -1,40 +1,43 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - lambda function which takes z as a parameter and returns z*11 using python.
 
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+To Write a lambda function which takes z as a parameter and returns z*11 using python.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+1. Define a lambda function that takes one parameter z and returns the result of z multiplied by 11.  
+2. Prompt the user to enter a value for z.  
+3. Read the value and convert it to an integer.  
+4. Pass the value to the lambda function and store the result.  
+5. Print the result returned by the lambda function.
 
 ---
 
 ### PROGRAM
 
 ```
+Reg no: 212223070023
+Name:Saran Krishna P S 
+i=int(input())
 
+f=lambda z: z*11
+
+print(f(i))
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/ab57a437-5779-4aad-bd89-62b370b014d8)
 
-```
 
-```
 
 ### RESULT
 
 ```
+Thus the above program is executed successfully.
 
 ```
